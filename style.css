@@ -1,0 +1,50 @@
+body{
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)) ,url("image.jpeg")center/cover no-repeat fixed;
+    color: white;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.testimonial{
+    margin-top: -3.3rem;
+    width: 100%;
+    height: 50%;
+    border: 1px solid white;
+    padding: 4em;
+
+    
+}
+h2{
+    text-align: center;
+    color: yellow;
+    padding-bottom: 1rem;
+}
+
+.btn-left{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    font-size: 40px;
+    border-radius: 50%;
+}
+
+.btn-right{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    font-size: 40px;
+    border-radius: 50%;
+}
+img{
+    border-radius: 100%;
+    width: 130px;
+    z-index: 10;
+    position: relative;
+
+    
+}
